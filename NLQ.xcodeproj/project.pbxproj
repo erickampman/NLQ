@@ -23,8 +23,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E40C6A35265EF88500CA6425 /* Notes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Notes.txt; sourceTree = "<group>"; };
 		E4BC45CD265D673D00EE2CB4 /* NLQ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NLQ; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BC45D0265D673D00EE2CB4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E4BC45D7265D676800EE2CB4 /* NLQ.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NLQ.hpp; sourceTree = "<group>"; };
+		E4BC45D8265D676800EE2CB4 /* NLQMem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NLQMem.hpp; sourceTree = "<group>"; };
+		E4BC45D9265D676900EE2CB4 /* NLQItem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NLQItem.hpp; sourceTree = "<group>"; };
+		E4BC45DD265D6F3300EE2CB4 /* NLQTestProducer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NLQTestProducer.hpp; sourceTree = "<group>"; };
+		E4BC45DE265D740700EE2CB4 /* NLQTestConsumer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NLQTestConsumer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 		E4BC45C4265D673D00EE2CB4 = {
 			isa = PBXGroup;
 			children = (
+				E40C6A35265EF88500CA6425 /* Notes.txt */,
 				E4BC45CF265D673D00EE2CB4 /* NLQ */,
 				E4BC45CE265D673D00EE2CB4 /* Products */,
 			);
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				E4BC45D0265D673D00EE2CB4 /* main.cpp */,
+				E4BC45D7265D676800EE2CB4 /* NLQ.hpp */,
+				E4BC45D9265D676900EE2CB4 /* NLQItem.hpp */,
+				E4BC45D8265D676800EE2CB4 /* NLQMem.hpp */,
+				E4BC45DD265D6F3300EE2CB4 /* NLQTestProducer.hpp */,
+				E4BC45DE265D740700EE2CB4 /* NLQTestConsumer.hpp */,
 			);
 			path = NLQ;
 			sourceTree = "<group>";
